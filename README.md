@@ -91,6 +91,9 @@ Use the GUI to:
 🛑 If the icon file is missing, the application will still function, but without a custom icon.
 
 ---
+## 🧊 Screenshot
+
+![App Screenshot](screenshot.png)
 
 ## 📄 License
 
