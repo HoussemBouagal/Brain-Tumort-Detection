@@ -1,59 +1,97 @@
-# Brain Tumor Detection
+# 🧠 Brain Tumor Detection – Tkinter + Deep Learning App
 
-This project is a **Brain Tumor Detection** system using a deep learning model and a graphical user interface (GUI) built with Tkinter.
+<p align="center">
+  <img src="brain-cancer.png" alt="App Icon" width="100"/>
+</p>
 
-## Features
-- **Deep Learning Model**: Uses a pre-trained TensorFlow model for brain tumor classification.
-- **User-Friendly Interface**: Built with Tkinter, featuring dark mode UI.
-- **Tumor Classification**: Detects and classifies brain tumors into four categories: Glioma, Meningioma, No Tumor, and Pituitary.
-- **Image Upload & Display**: Allows users to upload an image for analysis.
-- **Confidence Score**: Displays the prediction confidence percentage.
-- **Developer Info**: Shows details about the development team.
+---
 
-## Requirements
-- Python 3.8+
-- TensorFlow
-- NumPy
-- Pillow
-- Tkinter (built-in with Python)
+## 📌 Overview
 
-## Installation
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-repo/brain-tumor-detection.git
-   cd brain-tumor-detection
-   ```
-2. Install dependencies:
-   ```sh
-   pip install tensorflow numpy pillow
-   ```
-3. Run the application:
-   ```sh
-   python main.py
-   ```
+This is a desktop GUI application built with **Python** and **Tkinter** to automatically detect and classify brain tumors from medical images using a pre-trained deep learning model (TensorFlow/Keras).
 
-## Usage
-1. Click on **Load Image** to upload a brain scan image.
-2. The system will analyze the image and display the predicted tumor type along with the confidence percentage.
-3. The uploaded image will be displayed in the interface.
-4. Click on **Dev by** to view developer information.
+---
 
-## File Structure
+## 💡 Features
+
+- 🧠 Utilizes a trained **Keras** model to classify brain scans into:
+  - **Glioma**
+  - **Meningioma**
+  - **Pituitary**
+  - **No Tumor**
+- 🌙 Dark mode **Tkinter GUI** for a modern and eye-friendly experience.
+- 📷 Allows users to **upload and display** brain scan images.
+- 📊 Shows **prediction confidence** after analysis.
+- 👨‍💻 Includes an "About" section with **developer information**.
+- 🎨 Smooth and responsive UI layout.
+
+---
+
+## 🧪 Requirements
+
+Install the required Python libraries with:
+
+```bash
+pip install tensorflow pillow numpy
+```
+
+---
+
+## 🗂️ Project Structure
+
 ```
 brain-tumor-detection/
-│── brain_tumor_model.keras  # Pre-trained model file
-│── brain-cancer.png         # Icon for the application
-│── main.py                  # Main application script
-│── README.md                # Project documentation
+├── brain_tumor_model.keras     # Pre-trained model file
+├── brain-cancer.png            # Application icon
+├── main.py                     # Main application script
+└── README.md                   # Project documentation
 ```
 
-## Notes
-- Ensure that `brain_tumor_model.keras` is present in the same directory as `main.py`.
-- If the icon file is missing, the application will still run, but without a custom icon.
+---
 
-## Developer
-- **Bouagal Houssem Eddine**
+## 🚀 How to Run
 
-## License
-This project is licensed under the MIT License.
+Make sure the following files are in the same directory:
 
+- `main.py`  
+- `brain_tumor_model.keras`  
+- `brain-cancer.png`  
+
+Launch the application by running:
+
+```bash
+python main.py
+```
+
+Use the GUI to:
+
+- 📂 **Load Image** – Upload a brain scan image for diagnosis.
+- 🧠 **View tumor classification** and **confidence score**.
+- 👨‍💻 Click **Dev by** to view developer details.
+
+---
+
+## 👨‍💻 Developer
+
+- **Name**: Bouagal Houssem Eddine  
+- **Field**: Artificial Intelligence & Medical Imaging  
+- **Tech Stack**: Python (Tkinter + TensorFlow)
+
+---
+
+## 📌 Notes
+
+✅ The AI model is pre-trained and loaded during runtime.
+
+📦 You can convert this app into a standalone executable using:
+
+- `pyinstaller`
+- `auto-py-to-exe`
+
+🛑 If the icon file is missing, the application will still function, but without a custom icon.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
